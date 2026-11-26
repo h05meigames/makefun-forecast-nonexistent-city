@@ -8,11 +8,11 @@ Entry for the [Funniest Forecast for a City That Isn't](https://make.fun/bounty/
 
 ## The forecast
 
-> Wobbleton forecast: light gravy drizzle after 6pm; residents advised to bring bread, not umbrellas.
+> Wobbleton forecast: heavy gravy showers after 6pm; residents advised to bring bread, not umbrellas.
 
 **99 characters** (limit: 120).
 
-The weather itself is the joke — rain made of gravy — delivered in the flat voice of an official bulletin, right down to the standing advisory for residents. Wobbleton is a place where gravy rain is routine enough to plan lunch around.
+The weather itself is the joke — rain made of gravy, heavy enough to need cover from — delivered in the flat voice of an official bulletin, right down to the standing advisory for residents. Wobbleton is a place where gravy rain is routine enough to plan lunch around.
 
 ## How it runs
 

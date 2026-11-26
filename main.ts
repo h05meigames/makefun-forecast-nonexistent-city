@@ -22,7 +22,7 @@
 //   4. "100% chance of rain" is dead weight before the punchline: a padded
 //      setup for a joke that lands elsewhere (criterion 5).
 //
-// REVISION — one genuine new idea that fixes all four:
+// REVISION v2 — one genuine new idea that fixes all four:
 //   Make the WEATHER itself the joke, and let the city's residents react to
 //   it the way people react to real weather. Rain made of gravy is absurd
 //   weather, not a pun; the flat official advice ("residents advised to
@@ -32,13 +32,34 @@
 //   Every word earns its place: city + forecast voice + absurd weather +
 //   the residents' logical response, in 99 characters.
 // ---------------------------------------------------------------------------
+// REVISION v3 — one genuine defect in the v2 line, and the fix:
+//
+//   v2: "Wobbleton forecast: light gravy drizzle after 6pm; residents
+//        advised to bring bread, not umbrellas."
+//
+//   DEFECT: "light gravy drizzle" hedges twice. "Light" + "drizzle" is the
+//   weakest precipitation a bulletin can report, so the absurd weather is
+//   minimised before the punchline arrives: gravy rain so faint it barely
+//   matters, and the standing advisory ("bring bread, not umbrellas") then
+//   reads as an overreaction to nothing instead of the logical response to
+//   a real event. Worse, gravy does not drizzle — it is thick, it pours
+//   and splats — so "drizzle" fights the image the joke needs.
+//
+//   FIX: "heavy gravy showers". The weather becomes a real event worth an
+//   advisory, so the bread advice is now the residents' practical
+//   response rather than a joke about a drizzle: you genuinely need cover
+//   from falling gravy, and bread is what Wobbleton has. The bulletin
+//   voice is unchanged ("heavy showers" is standard forecast wording),
+//   the name, the city and the punchline are untouched, and the line
+//   stays at 99 characters ("light" -> "heavy", "drizzle" -> "showers").
+// ---------------------------------------------------------------------------
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 // Final entry: 99 characters (verified at run time, gate allows at most 120).
 const ENTRY =
-  'Wobbleton forecast: light gravy drizzle after 6pm; residents advised to bring bread, not umbrellas.';
+  'Wobbleton forecast: heavy gravy showers after 6pm; residents advised to bring bread, not umbrellas.';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
