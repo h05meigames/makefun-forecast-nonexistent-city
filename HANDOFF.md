@@ -20,7 +20,7 @@ Status: **dibangun, BELUM disubmit** (parent yang submit).
 
 - URL: https://github.com/h05meigames/makefun-forecast-nonexistent-city
 - Publik, About homepage https://make.fun, topic `makefun`
-- Commit final: `9123191b4da6f7351dae3856f8ab02fbf118e88a` (remote HEAD terverifikasi sama dengan lokal via `git ls-remote`)
+- Commit final: `282f10b38601f41d281e2d8217773a601e00623f` (termasuk HANDOFF.md; commit entry: `9123191b4da6f7351dae3856f8ab02fbf118e88a`)
 - Riwayat: `0392959` makefun anchor (drand round 34291912) → `fb23fb6` LICENSE: MIT → `9123191` entry
 - Referral di repo HANYA https://make.fun/r/0ene8b3q (README; tidak ada kode referral lain)
 
