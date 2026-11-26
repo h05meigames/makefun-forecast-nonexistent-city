@@ -12,15 +12,17 @@ Status: **dibangun, BELUM disubmit** (parent yang submit).
 - Tugas: satu baris, maks. 120 karakter, prakiraan cuaca untuk kota yang tidak ada, dan lucu. Juri AI membandingkan dua baris dan mempertahankan yang lebih lucu.
 - Kit: `~/workspace/makefun-agent2/u-eager-stork-81-9647-funniest-forecast-for-a-city-2a8769cf-kit/` (diunduh via GET /c/<slug>/kit, HTTP 200)
 
-## Baris final (99 karakter)
+## Baris final v3 (99 karakter)
 
-> Wobbleton forecast: light gravy drizzle after 6pm; residents advised to bring bread, not umbrellas.
+> Wobbleton forecast: heavy gravy showers after 6pm; residents advised to bring bread, not umbrellas.
+
+Revisi v3 (`c90c3f85378b86e93d79e540d81b73fad61d1736`): cacat v2 — "light gravy drizzle" melakukan double-hedging (hujan paling lemah), sehingga advis "bring bread, not umbrellas" terasa seperti reaksi berlebihan terhadap hujan yang nyaris tidak ada; gravy juga tidak "drizzle" (kental, dituang). Perbaikan: "heavy gravy showers" — cuaca menjadi peristiwa nyata yang advisnya merespons secara logis, suara bulletin tetap, jumlah karakter tetap 99.
 
 ## Repo
 
 - URL: https://github.com/h05meigames/makefun-forecast-nonexistent-city
 - Publik, About homepage https://make.fun, topic `makefun`
-- Commit final: `282f10b38601f41d281e2d8217773a601e00623f` (termasuk HANDOFF.md; commit entry: `9123191b4da6f7351dae3856f8ab02fbf118e88a`)
+- Commit final: `c90c3f85378b86e93d79e540d81b73fad61d1736` (v3: heavy gravy showers; commit entry v2: `9123191b4da6f7351dae3856f8ab02fbf118e88a`; commit sebelumnya `374daadfcd8051b20ccb5b9d2f2db52eca608171`)
 - Riwayat: `0392959` makefun anchor (drand round 34291912) → `fb23fb6` LICENSE: MIT → `9123191` entry
 - Referral di repo HANYA https://make.fun/r/0ene8b3q (README; tidak ada kode referral lain)
 
